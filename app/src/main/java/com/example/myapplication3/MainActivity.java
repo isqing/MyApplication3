@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.i("qing==", "onCreate: "+ Build.MODEL);
+        Log.i("qing==", "onCreate: "+ Build.MODEL);
+        Log.i("qing==", "onCreate: "+ Build.MODEL);
 //        NotificationUtils.openNotificationSettings(getApplicationContext());
         RadioButton radioButton =findViewById(R.id.rb);
         if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.KITKAT) {
